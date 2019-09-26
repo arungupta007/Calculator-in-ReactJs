@@ -1,0 +1,87 @@
+.container{
+    align-items: center;
+    margin-top: 100px;
+    height:324px;
+    width:232px;
+    /* height: auto;
+    width: auto; */
+    /* background-color:pink; */
+    margin-left: 300px;
+    flex:1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.show-result{
+    height: 100px;
+}
+
+.btnf{
+    color: white;
+    background-color: #68686B;
+    width: 58px;
+    height: 56px;
+    border:.5px solid #DDDDDD;
+    font-size: 20px;
+    margin-left: 0px;
+}
+.btnm{
+    color: white;
+    background-color: #FE9F0A;
+    width: 58px;
+    height: 56px;
+    border:.5px solid #DDDDDD;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.btn0{
+    color: white;
+    background-color: #818183;
+    width: 116px;
+    height: 56px;
+    border:.5px solid #DDDDDD;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.btn7To3{
+    color: white;
+    background-color: #818183;
+    width: 58px;
+    height: 56px;
+    border:.5px solid #DDDDDD;
+    font-size: 25px;
+    /* margin-left: 0px; */
+}
+
+.text{
+    height:70px;
+    width:230px;
+    background-color:#57595C;
+    font-size: 19px;
+    border: 1px solid #57595C;
+    float: 1px;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    text-align: end;
+    color: white;
+}
+
+.circularButton{
+    background-color: #818183;
+    border: 1px solid #818183;
+    align-items: center;
+    text-align: center;
+    margin-left: 110px;
+    border-radius: 50%;
+    justify-content: center;
+     
+    display: flex;
+    color: white;
+    
+}
+.circularButton:hover{
+    background-color: #ff544d;
+    border: 1px solid #ff544d;
+}
